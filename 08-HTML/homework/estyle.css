@@ -1,0 +1,26 @@
+body{
+    background-image: "https://i.blogs.es/a7ce3d/7yxd9/1366_2000.png" ;
+}
+div{
+    align-items: center;
+    
+}
+
+h1{
+    color: #f34f4f;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: aquamarine;
+    padding: 50px;
+    border: 2px solid black;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+   
