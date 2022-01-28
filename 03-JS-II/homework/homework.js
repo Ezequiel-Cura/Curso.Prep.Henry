@@ -9,7 +9,7 @@ function obtenerMayor(x, y) {
     return x
   }
   return y;
-
+}
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
@@ -169,7 +169,7 @@ function esPrimo(numero) {
   }
   return true;
 }
-}
+
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
@@ -185,10 +185,20 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  if(numero > 99 && numero < 1000){
-    return true
+  var array = [];
+  var numero = 0;
+  for(var i = 0; i <= 10; i++){
+    array.push(numero);
+    numero = numero + 6;
   }
-  return false
+  return array;
+
+  // OTRA FORMA DE HACERLO
+  // let arrayTablaDe6 = [];
+  // for(let i = 0;i<11;i++){
+  //   arrayTablaDe6.push(6 * i);
+  // }
+  // return arrayTablaDe6;
 }
 
 function tieneTresDigitos(numero){

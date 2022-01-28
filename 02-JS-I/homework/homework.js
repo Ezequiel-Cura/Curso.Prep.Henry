@@ -37,6 +37,8 @@ function suma(x, y) {
   // Tu código:
   var resultadoSuma = x + y;
   return resultadoSuma;
+
+  // return x + y OTRA FORMA DE HACERLO
 }
 
 function resta(x, y) {
@@ -176,7 +178,7 @@ function esPositivo(numero) {
   if(numero === 0){
     return false;
   }
-  else if(numero>=0){
+  else if(numero>0){
     return "Es positivo";
   }
   return "Es negativo";
@@ -230,7 +232,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   var valorEuro = 1.20;
-  return euro * valorEuro;
+  return euro * valorEuro;  // puedo cambiar valorEuro por 1.2 ( otra forma de hacerlo)
 }
 
 

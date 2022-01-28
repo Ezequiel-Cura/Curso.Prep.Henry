@@ -99,6 +99,7 @@ function promedioResultadosTest(resultadosTest) {
     promedio = promedio + resultadosTest[i];
     // (resultadosTest[i]+resultadosTest[i])/resultadosTest.length
     // return promedio
+    // return agregarNumeros(resultadosTest) / resultadosTest.length;
   }
   promedio = promedio/ resultadosTest.length;
   return promedio
@@ -111,8 +112,16 @@ function numeroMasGrande(numeros) {
   // Tu código:
   var masGrande = Math.max.apply(Math, numeros);
   return masGrande
-}
 
+//   var maximo = numeros[];
+//   for(var i = 1; i< numeros.length; i++){
+//     if(numeros[i] > maximo){
+//       maximo = numeros[i];   OTRA FORMA DE HACERLO
+//     }
+//   }
+//   return maximo;
+// }
+}
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
@@ -130,7 +139,7 @@ function multiplicarArgumentos() {
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-  // for(var i = 18; i )
+  
   
   var contador = 0;
   for( var i = 0; i < arreglo.length; i++){
